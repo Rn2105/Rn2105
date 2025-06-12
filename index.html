@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang tỏ tình dễ thương 💌</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 100px;
+      background-color: #fff0f5;
+      
+      background-image: url('summer.png');
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+
+
+    }
+    h1 {
+        color: aqua;
+    }
+
+    #loveMessage {
+      display: none;
+      margin-top: 30px;
+    }
+
+    #loveMessage img {
+      width: 100px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px pink;
+    }
+
+    #loveMessage p {
+      font-size: 24px;
+      color: #e91e63;
+      margin-top: 15px;
+    }
+
+    button {
+      padding: 12px 20px;
+      font-size: 18px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ff1493;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Nhấn vào nút bên dưới nè 💖</h1>
+  <button onclick="showLove()">Bấm vào đây</button>
+
+  <div id="loveMessage">
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHlxN29hNzg1cjYzNXpjNmhvZ2ZmMWxmcG85eDl1NHVkM3kxMjhxNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TdL0bbk08WP2S0RMnX/giphy.gif" alt="Ảnh dễ thương">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGpyZmhyemQ1YjJ5NXh0ZmI2cTdnMTZ0aGpndm4zenB0NGxuYWE0byZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LCo3JuJ8ca3XXJQqlM/giphy.gif"alt="anh doi lap">
+    <p>at the same time 💖</p>
+  </div>
+
+  <script>
+    function showLove() {
+      document.getElementById("loveMessage").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
